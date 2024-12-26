@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "exercises/**/*.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/exercises/(.*)", "dest": "/exercises/$1" }
+  ]
+} 
